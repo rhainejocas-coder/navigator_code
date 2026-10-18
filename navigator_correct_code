@@ -1,0 +1,17 @@
+name = input("Customer Name: ")
+
+notebook = 45.50 * int(input("Notebook Quantity: "))
+pen = 12.75 * int(input("Pen Quantity: "))
+paper = 8.25 * int(input("Paper Quantity: "))
+
+total = notebook + pen + paper
+paid = float(input("Amount Paid: "))
+change = paid - total
+
+print("\nCustomer Name:", name)
+print("Notebook Subtotal:", notebook)
+print("Pen Subtotal:", pen)
+print("Paper Subtotal:", paper)
+print("Overall Total:", total)
+print("Amount Paid:", paid)
+print("Change:", change)
